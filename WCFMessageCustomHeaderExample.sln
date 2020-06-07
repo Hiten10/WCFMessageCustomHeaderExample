@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29318.209
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCF.MessageHeaders.Service", "WCF.MessageHeaders.Service\WCF.MessageHeaders.Service.csproj", "{89000E70-AEC2-43E0-A802-3E1B04590923}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCF.MessageHeader.Client", "WCF.ClientMessageInspector\WCF.MessageHeader.Client.csproj", "{F52DACED-17AC-4D00-85CD-93740663899D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{89000E70-AEC2-43E0-A802-3E1B04590923} = {89000E70-AEC2-43E0-A802-3E1B04590923}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{89000E70-AEC2-43E0-A802-3E1B04590923}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89000E70-AEC2-43E0-A802-3E1B04590923}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89000E70-AEC2-43E0-A802-3E1B04590923}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89000E70-AEC2-43E0-A802-3E1B04590923}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F52DACED-17AC-4D00-85CD-93740663899D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F52DACED-17AC-4D00-85CD-93740663899D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F52DACED-17AC-4D00-85CD-93740663899D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F52DACED-17AC-4D00-85CD-93740663899D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {14BAFAE7-ED46-4A91-9878-A6F9B1C3C546}
+	EndGlobalSection
+EndGlobal
